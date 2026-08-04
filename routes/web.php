@@ -2,4 +2,5 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::inertia('/', 'Welcome')->name('home');
+Route::inertia('/', 'Login')->name('login');
+Route::inertia('/', 'Registration')->name('registration');
