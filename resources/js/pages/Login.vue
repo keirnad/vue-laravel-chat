@@ -18,6 +18,6 @@
                     <input v-model="inputValue.password" placeholder="Password" type="password" name="password" required autocomplete="off" class="rounded-[3px] px-6 py-5 text-2xl outline-0 text-white bg-[#94a8af] border-2 border-[#94a8af] focus:border-[#a8d06f]">
                     <button class="cursor-pointer rounded-[3px] px-6 py-5 text-2xl text-black bg-[#a8d06f]"><span>Continue </span><i class="pi pi-sign-in"></i></button>
             </form>
-            <p>Not registered yet? <a href="#" class="hover:text-[#d7e5d2]">Registration</a></p>
+            <p>Not registered yet? <a href="/registration" class="hover:text-[#d7e5d2]">Registration</a></p>
         </div>
 </template>
