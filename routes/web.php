@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::group(['middleware' => ['auth']], function() {
+Route::group(['middleware' => ['auth:sanctum']], function () {
     Route::inertia('/', 'Home')->name('home');
 });
 Route::inertia('/login', 'Login')->middleware('guest')->name('login');
