@@ -1,6 +1,7 @@
 <script setup lang="ts">
     import { Form } from '@inertiajs/vue3';
     import { Link } from '@inertiajs/vue3'
+    import { Head } from '@inertiajs/vue3'
     import { ref } from 'vue';
 
     const inputValue = ref({
@@ -12,6 +13,10 @@
 </script>
 
 <template>
+    <Head>
+        <title>Login - YChat</title>
+        <meta name="description" content="login page of YChat">
+    </Head>
         <div class="flex flex-1 flex-col items-center mt-10 sm:mx-auto sm:w-full sm:max-w-sm min-h-full px-6 py-12 lg:px-8">
             <h1 class="text-5xl">Sign in</h1>
             <Form method="post" action="/api/login" id="login-form" class="flex flex-1 flex-col space-y-6 p-4">

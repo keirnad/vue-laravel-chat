@@ -9,7 +9,7 @@ Route::get('/user', function (Request $request) {
 })->middleware('auth:sanctum');
 
 Route::post('/register', [UserController::class, 'register'])->middleware('guest:sanctum');
+Route::post('/login', [UserController::class, 'login'])->middleware('guest:sanctum');
 Route::post('/logout', function (Request $request) {
     return $request->user()->currentAccessToken()->delete();
 })->middleware('auth:sanctum')->name('logout');
-Route::post('/login', [UserController::class, 'login'])->middleware('guest:sanctum');
