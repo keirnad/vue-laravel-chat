@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { Head } from '@inertiajs/vue3'
-import ChatComponent from '@/components/ChatComponent.vue';
-import SideMenuComponent from '@/components/SideMenuComponent.vue';
+import Menu from '@/components/Menu.vue';
 </script>
 
 <template>
@@ -9,9 +8,8 @@ import SideMenuComponent from '@/components/SideMenuComponent.vue';
         <title>Home - YChat</title>
         <meta name="description" content="Main page of YChat">
     </Head>
-    <div id="app" class="flex flex-row">
-        <side-menu-component/>
-        <ChatComponent/>
+    <div id="app" class="grid grid-cols-6 grid-rows-6">
+        <Menu />
     </div>
 </template>
 
