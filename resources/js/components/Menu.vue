@@ -8,7 +8,7 @@ const user = computed(() => page.props.auth.user);
 </script>
 
 <template>
-    <div id="menu" class="row-span-6 flex bg-[#a8d06f] p-5 max-lg:col-span-2">
+    <div id="menu" class="row-span-6 flex bg-[#a8d06f] p-5">
         <div id="user-block" class="mx-auto text-2xl">
             <p>Welcome {{ user.name }}!</p>
             <Form method="post" action="/logout">

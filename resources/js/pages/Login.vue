@@ -17,7 +17,7 @@
         <title>Login - YChat</title>
         <meta name="description" content="login page of YChat">
     </Head>
-        <div class="flex flex-col justify-center mt-10 min-h-full px-6 py-12 lg:px-8">
+        <div class="flex flex-col justify-center px-6 py-12 lg:px-8">
             <h1 class="text-5xl self-center">Sign in</h1>
             <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
                 <Form method="post" action="/login" id="login-form" class="space-y-6 p-4">
