@@ -18,6 +18,7 @@
         <meta name="description" content="Registration page of YChat">
     </Head>
         <div class="flex flex-col justify-center px-6 py-12 lg:px-8">
+
             <h1 class="text-5xl self-center">Sign up</h1>
             <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
                 <Form method="post" action="/register" id="login-form" class="flex flex-1 flex-col space-y-6 p-4">

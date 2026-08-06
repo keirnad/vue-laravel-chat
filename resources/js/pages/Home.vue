@@ -9,9 +9,9 @@ import Menu from '@/components/Menu.vue';
         <title>Home - YChat</title>
         <meta name="description" content="Main page of YChat">
     </Head>
-    <div id="app" class="grid grid-cols-6 grid-rows-6">
+    <div id="app" class="flex">
         <Menu />
-        <div id="content" class="col-span-5 row-span-6">
+        <div id="content" class="flex flex-1">
             <GroupChat />
         </div>
     </div>
